@@ -1,12 +1,7 @@
-interface Equipo {
-  nombre: string;
-  tipo: string;
-  estado: string
-}
 class Inventario {
 
   private static instancia: Inventario;
-  private equipos: Equipo[] = [];
+  private equipos: { nombre: string, tipo: string, estado: string }[] = [];
 
   constructor() {}
 
@@ -18,8 +13,8 @@ class Inventario {
   }
 
   public agregarEquipo(nombre: string, tipo: string, estado: string): void {
-    const equipo = { nombre, tipo, estado }
-    this.equipos.push(equipo)
+    const equipo = { nombre, tipo, estado };
+    this.equipos.push(equipo);
   }
 
   public listarEquipos() {
