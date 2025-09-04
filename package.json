@@ -1,0 +1,25 @@
+{
+  "name": "tlp4-activdad-patrones-disenio-tobias_vega",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tobias-Vega/tlp4-activdad-patrones-disenio-tobias_vega.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Tobias-Vega/tlp4-activdad-patrones-disenio-tobias_vega/issues"
+  },
+  "homepage": "https://github.com/Tobias-Vega/tlp4-activdad-patrones-disenio-tobias_vega#readme",
+  "devDependencies": {
+    "tsc": "^2.0.4",
+    "tsx": "^4.20.5"
+  }
+}
