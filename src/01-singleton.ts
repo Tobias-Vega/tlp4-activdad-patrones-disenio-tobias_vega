@@ -1,7 +1,12 @@
+export interface IEquipo {
+  nombre: string;
+  tipo: string;
+  estado: string;
+}
 class Inventario {
 
   private static instancia: Inventario;
-  private equipos: { nombre: string, tipo: string, estado: string }[] = [];
+  private equipos: IEquipo[] = [];
 
   constructor() {}
 
